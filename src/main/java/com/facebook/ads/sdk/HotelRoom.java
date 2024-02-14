@@ -375,8 +375,8 @@ public class HotelRoom extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPricingVariables(String nodeId, APIContext context) {
@@ -518,8 +518,8 @@ public class HotelRoom extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

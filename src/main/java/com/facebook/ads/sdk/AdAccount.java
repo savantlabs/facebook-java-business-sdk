@@ -1162,8 +1162,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetAccountControls(String nodeId, APIContext context) {
@@ -1296,8 +1296,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreateAccountControl(String nodeId, APIContext context) {
@@ -1441,8 +1441,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetActivities(String nodeId, APIContext context) {
@@ -1714,8 +1714,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetAdPlacePageSets(String nodeId, APIContext context) {
@@ -1864,8 +1864,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreateAdPlacePageSet(String nodeId, APIContext context) {
@@ -2000,8 +2000,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreateAdPlacePageSetsAsync(String nodeId, APIContext context) {
@@ -2133,8 +2133,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetAdSavedKeywords(String nodeId, APIContext context) {
@@ -2264,8 +2264,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetAdStudies(String nodeId, APIContext context) {
@@ -2504,7 +2504,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdCloudPlayables(String nodeId, APIContext context) {
@@ -2737,7 +2738,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdCreatives(String nodeId, APIContext context) {
@@ -3353,7 +3355,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAdCreative(String nodeId, APIContext context) {
@@ -3871,7 +3874,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdCreativesByLabels(String nodeId, APIContext context) {
@@ -4455,8 +4459,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+        Runnable::run);
     };
 
     public APIRequestDeleteAdImages(String nodeId, APIContext context) {
@@ -4589,7 +4593,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdImages(String nodeId, APIContext context) {
@@ -4869,7 +4874,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAdImage(String nodeId, APIContext context) {
@@ -4996,7 +5002,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdLabels(String nodeId, APIContext context) {
@@ -5136,7 +5143,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAdLabel(String nodeId, APIContext context) {
@@ -5248,7 +5256,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdPlayables(String nodeId, APIContext context) {
@@ -5379,7 +5388,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAdPlayable(String nodeId, APIContext context) {
@@ -5534,7 +5544,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdRulesHistory(String nodeId, APIContext context) {
@@ -5743,7 +5754,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdRulesLibrary(String nodeId, APIContext context) {
@@ -5924,7 +5936,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAdRulesLibrary(String nodeId, APIContext context) {
@@ -6124,7 +6137,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAds(String nodeId, APIContext context) {
@@ -6544,7 +6558,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAd(String nodeId, APIContext context) {
@@ -6806,7 +6821,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdsReportingMmmReports(String nodeId, APIContext context) {
@@ -6919,7 +6935,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdsReportingMmmSchedulers(String nodeId, APIContext context) {
@@ -7038,7 +7055,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdsVolume(String nodeId, APIContext context) {
@@ -7292,7 +7310,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdsByLabels(String nodeId, APIContext context) {
@@ -7738,7 +7757,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdSets(String nodeId, APIContext context) {
@@ -8356,7 +8376,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAdSet(String nodeId, APIContext context) {
@@ -8911,7 +8932,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdSetsByLabels(String nodeId, APIContext context) {
@@ -9487,7 +9509,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdsPixels(String nodeId, APIContext context) {
@@ -9832,7 +9855,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAdsPixel(String nodeId, APIContext context) {
@@ -10048,7 +10072,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdvertisableApplications(String nodeId, APIContext context) {
@@ -10898,7 +10923,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestDeleteAdVideos(String nodeId, APIContext context) {
@@ -11062,7 +11088,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAdVideos(String nodeId, APIContext context) {
@@ -11638,7 +11665,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAdVideo(String nodeId, APIContext context) {
@@ -12330,7 +12358,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAffectedAdSets(String nodeId, APIContext context) {
@@ -12855,7 +12884,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestDeleteAgencies(String nodeId, APIContext context) {
@@ -12985,7 +13015,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAgencies(String nodeId, APIContext context) {
@@ -13238,7 +13269,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAgency(String nodeId, APIContext context) {
@@ -13461,7 +13493,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetApplications(String nodeId, APIContext context) {
@@ -14301,7 +14334,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestDeleteAssignedUsers(String nodeId, APIContext context) {
@@ -14419,7 +14453,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAssignedUsers(String nodeId, APIContext context) {
@@ -14558,7 +14593,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAssignedUser(String nodeId, APIContext context) {
@@ -14682,7 +14718,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAsyncBatchRequest(String nodeId, APIContext context) {
@@ -14806,7 +14843,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAsyncRequests(String nodeId, APIContext context) {
@@ -14973,7 +15011,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetAsyncAdRequestSets(String nodeId, APIContext context) {
@@ -15202,7 +15241,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateAsyncAdRequestSet(String nodeId, APIContext context) {
@@ -15335,7 +15375,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestCreateBlockListDraft(String nodeId, APIContext context) {
@@ -15461,7 +15502,8 @@ public class AdAccount extends APINode {
              }
            }
          }
-      );
+          ,
+          Runnable::run);
     };
 
     public APIRequestGetBroadTargetingCategories(String nodeId, APIContext context) {
@@ -15658,8 +15700,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetBusinessProjects(String nodeId, APIContext context) {
@@ -15771,8 +15813,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteCampaigns(String nodeId, APIContext context) {
@@ -15951,8 +15993,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCampaigns(String nodeId, APIContext context) {
@@ -16392,8 +16434,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCampaign(String nodeId, APIContext context) {
@@ -16703,8 +16745,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCampaignsByLabels(String nodeId, APIContext context) {
@@ -17121,8 +17163,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetConnectedInstagramAccounts(String nodeId, APIContext context) {
@@ -17337,8 +17379,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetConversionGoals(String nodeId, APIContext context) {
@@ -17446,8 +17488,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCustomAudiences(String nodeId, APIContext context) {
@@ -17622,8 +17664,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCustomAudience(String nodeId, APIContext context) {
@@ -17984,8 +18026,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCustomAudiencesTos(String nodeId, APIContext context) {
@@ -18111,8 +18153,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCustomAudiencesTo(String nodeId, APIContext context) {
@@ -18244,8 +18286,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCustomConversions(String nodeId, APIContext context) {
@@ -18488,8 +18530,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCustomConversion(String nodeId, APIContext context) {
@@ -18644,8 +18686,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDeliveryEstimate(String nodeId, APIContext context) {
@@ -18878,8 +18920,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDeprecatedTargetingAdSets(String nodeId, APIContext context) {
@@ -19408,8 +19450,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDsaRecommendations(String nodeId, APIContext context) {
@@ -19536,8 +19578,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetGeneratePreviews(String nodeId, APIContext context) {
@@ -19791,8 +19833,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetImpactingAdStudies(String nodeId, APIContext context) {
@@ -20042,8 +20084,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInsights(String nodeId, APIContext context) {
@@ -20344,8 +20386,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInsightsAsync(String nodeId, APIContext context) {
@@ -20636,8 +20678,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInstagramAccounts(String nodeId, APIContext context) {
@@ -20821,8 +20863,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetIosFourteenCampaignLimits(String nodeId, APIContext context) {
@@ -20966,8 +21008,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateManagedPartnerAd(String nodeId, APIContext context) {
@@ -21200,8 +21242,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetMatchedSearchApplications(String nodeId, APIContext context) {
@@ -21412,8 +21454,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetMaxBid(String nodeId, APIContext context) {
@@ -21529,8 +21571,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetMinimumBudgets(String nodeId, APIContext context) {
@@ -21709,8 +21751,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOfflineConversionDataSets(String nodeId, APIContext context) {
@@ -22043,8 +22085,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOnBehalfRequests(String nodeId, APIContext context) {
@@ -22210,8 +22252,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateProductAudience(String nodeId, APIContext context) {
@@ -22615,8 +22657,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPromotePages(String nodeId, APIContext context) {
@@ -23779,8 +23821,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPublisherBlockLists(String nodeId, APIContext context) {
@@ -23954,8 +23996,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreatePublisherBlockList(String nodeId, APIContext context) {
@@ -24073,8 +24115,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetReachEstimate(String nodeId, APIContext context) {
@@ -24331,8 +24373,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetReachFrequencyPredictions(String nodeId, APIContext context) {
@@ -25079,8 +25121,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateReachFrequencyPrediction(String nodeId, APIContext context) {
@@ -25532,8 +25574,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSavedAudiences(String nodeId, APIContext context) {
@@ -25660,8 +25702,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteSubscribedApps(String nodeId, APIContext context) {
@@ -25771,8 +25813,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSubscribedApps(String nodeId, APIContext context) {
@@ -25890,8 +25932,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateSubscribedApp(String nodeId, APIContext context) {
@@ -26029,8 +26071,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTargetingBrowse(String nodeId, APIContext context) {
@@ -26389,8 +26431,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTargetingSearch(String nodeId, APIContext context) {
@@ -26774,8 +26816,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTargetingSentenceLines(String nodeId, APIContext context) {
@@ -26969,8 +27011,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTargetingSuggestions(String nodeId, APIContext context) {
@@ -27360,8 +27402,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTargetingValidation(String nodeId, APIContext context) {
@@ -27662,8 +27704,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTracking(String nodeId, APIContext context) {
@@ -27774,8 +27816,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateTracking(String nodeId, APIContext context) {
@@ -27890,8 +27932,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetUsers(String nodeId, APIContext context) {
@@ -28018,8 +28060,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteUsersOfAnyAudience(String nodeId, APIContext context) {
@@ -28145,8 +28187,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetValueAdjustmentRules(String nodeId, APIContext context) {
@@ -28318,8 +28360,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -28922,8 +28964,8 @@ public class AdAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

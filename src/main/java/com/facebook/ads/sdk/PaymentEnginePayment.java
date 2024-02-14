@@ -436,8 +436,8 @@ public class PaymentEnginePayment extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateDispute(String nodeId, APIContext context) {
@@ -552,8 +552,8 @@ public class PaymentEnginePayment extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateRefund(String nodeId, APIContext context) {
@@ -699,8 +699,8 @@ public class PaymentEnginePayment extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

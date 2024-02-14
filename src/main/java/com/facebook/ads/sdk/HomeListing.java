@@ -600,8 +600,8 @@ public class HomeListing extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAugmentedRealitiesMetadata(String nodeId, APIContext context) {
@@ -706,8 +706,8 @@ public class HomeListing extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetChannelsToIntegrityStatus(String nodeId, APIContext context) {
@@ -828,8 +828,8 @@ public class HomeListing extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetVideosMetadata(String nodeId, APIContext context) {
@@ -960,8 +960,8 @@ public class HomeListing extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -1110,8 +1110,8 @@ public class HomeListing extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -1550,8 +1550,8 @@ public class HomeListing extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

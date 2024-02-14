@@ -737,8 +737,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAttachments(String nodeId, APIContext context) {
@@ -868,8 +868,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetComments(String nodeId, APIContext context) {
@@ -1176,8 +1176,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateComment(String nodeId, APIContext context) {
@@ -1354,8 +1354,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDynamicPosts(String nodeId, APIContext context) {
@@ -1547,8 +1547,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInsights(String nodeId, APIContext context) {
@@ -1739,8 +1739,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteLikes(String nodeId, APIContext context) {
@@ -1856,8 +1856,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateLike(String nodeId, APIContext context) {
@@ -1987,8 +1987,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetReactions(String nodeId, APIContext context) {
@@ -2239,8 +2239,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSharedPosts(String nodeId, APIContext context) {
@@ -2927,8 +2927,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSponsorTags(String nodeId, APIContext context) {
@@ -4092,8 +4092,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTo(String nodeId, APIContext context) {
@@ -4273,8 +4273,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -4439,8 +4439,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -5008,8 +5008,8 @@ public class Post extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

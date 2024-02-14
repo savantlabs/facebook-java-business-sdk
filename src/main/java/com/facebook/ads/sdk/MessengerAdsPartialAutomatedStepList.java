@@ -353,8 +353,8 @@ public class MessengerAdsPartialAutomatedStepList extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSteps(String nodeId, APIContext context) {
@@ -464,8 +464,8 @@ public class MessengerAdsPartialAutomatedStepList extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

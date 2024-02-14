@@ -411,8 +411,8 @@ public class UnifiedThread extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetMessages(String nodeId, APIContext context) {
@@ -541,8 +541,8 @@ public class UnifiedThread extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

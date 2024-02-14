@@ -676,8 +676,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+        Runnable::run);
     };
 
     public APIRequestGetCaptions(String nodeId, APIContext context) {
@@ -783,8 +783,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreateCaption(String nodeId, APIContext context) {
@@ -910,8 +910,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetCollaborators(String nodeId, APIContext context) {
@@ -1015,8 +1015,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreateCollaborator(String nodeId, APIContext context) {
@@ -1151,8 +1151,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetComments(String nodeId, APIContext context) {
@@ -1461,8 +1461,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreateComment(String nodeId, APIContext context) {
@@ -1796,8 +1796,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetCrosspostSharedPages(String nodeId, APIContext context) {
@@ -2951,8 +2951,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreateGamingClipCreate(String nodeId, APIContext context) {
@@ -3075,8 +3075,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetLikes(String nodeId, APIContext context) {
@@ -3260,8 +3260,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreateLike(String nodeId, APIContext context) {
@@ -3388,8 +3388,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetPollSettings(String nodeId, APIContext context) {
@@ -3499,8 +3499,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetPolls(String nodeId, APIContext context) {
@@ -3659,8 +3659,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreatePoll(String nodeId, APIContext context) {
@@ -3972,8 +3972,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetSponsorTags(String nodeId, APIContext context) {
@@ -5126,8 +5126,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetTags(String nodeId, APIContext context) {
@@ -5233,8 +5233,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreateTag(String nodeId, APIContext context) {
@@ -5367,8 +5367,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetThumbnails(String nodeId, APIContext context) {
@@ -5522,8 +5522,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestCreateThumbnail(String nodeId, APIContext context) {
@@ -5655,8 +5655,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGetVideoInsights(String nodeId, APIContext context) {
@@ -5836,8 +5836,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -5986,8 +5986,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -6440,8 +6440,8 @@ public class AdVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+          Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

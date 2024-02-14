@@ -377,8 +377,8 @@ public class WhatsAppBusinessPreVerifiedPhoneNumber extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPartners(String nodeId, APIContext context) {
@@ -630,8 +630,8 @@ public class WhatsAppBusinessPreVerifiedPhoneNumber extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateRequestCode(String nodeId, APIContext context) {
@@ -749,8 +749,8 @@ public class WhatsAppBusinessPreVerifiedPhoneNumber extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateVerifyCode(String nodeId, APIContext context) {
@@ -858,8 +858,8 @@ public class WhatsAppBusinessPreVerifiedPhoneNumber extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -968,8 +968,8 @@ public class WhatsAppBusinessPreVerifiedPhoneNumber extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

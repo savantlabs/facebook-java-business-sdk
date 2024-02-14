@@ -563,8 +563,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetBlockedUsers(String nodeId, APIContext context) {
@@ -1042,8 +1042,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetComments(String nodeId, APIContext context) {
@@ -1489,8 +1489,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCrosspostSharedPages(String nodeId, APIContext context) {
@@ -2670,8 +2670,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCrosspostedBroadcasts(String nodeId, APIContext context) {
@@ -2968,8 +2968,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetErrors(String nodeId, APIContext context) {
@@ -3107,8 +3107,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateInputStream(String nodeId, APIContext context) {
@@ -3218,8 +3218,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPolls(String nodeId, APIContext context) {
@@ -3378,8 +3378,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreatePoll(String nodeId, APIContext context) {
@@ -3553,8 +3553,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetReactions(String nodeId, APIContext context) {
@@ -3743,8 +3743,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -3875,8 +3875,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -4203,8 +4203,8 @@ public class LiveVideo extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

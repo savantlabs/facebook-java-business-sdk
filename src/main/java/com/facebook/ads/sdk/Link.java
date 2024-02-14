@@ -394,8 +394,8 @@ public class Link extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateComment(String nodeId, APIContext context) {
@@ -590,8 +590,8 @@ public class Link extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetLikes(String nodeId, APIContext context) {
@@ -783,8 +783,8 @@ public class Link extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

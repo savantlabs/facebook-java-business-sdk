@@ -363,8 +363,8 @@ public class AppRequest extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -485,8 +485,8 @@ public class AppRequest extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

@@ -852,8 +852,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAccessToken(String nodeId, APIContext context) {
@@ -981,8 +981,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteAdAccounts(String nodeId, APIContext context) {
@@ -1108,8 +1108,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdStudies(String nodeId, APIContext context) {
@@ -1350,8 +1350,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdStudy(String nodeId, APIContext context) {
@@ -1563,8 +1563,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdAccount(String nodeId, APIContext context) {
@@ -1757,8 +1757,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAddPhoneNumber(String nodeId, APIContext context) {
@@ -1867,8 +1867,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdNetworkApplication(String nodeId, APIContext context) {
@@ -1988,8 +1988,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdNetworkAnalytics(String nodeId, APIContext context) {
@@ -2195,8 +2195,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdNetworkAnalytic(String nodeId, APIContext context) {
@@ -2379,8 +2379,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdNetworkAnalyticsResults(String nodeId, APIContext context) {
@@ -2535,8 +2535,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdsReportingMmmReports(String nodeId, APIContext context) {
@@ -2648,8 +2648,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdsReportingMmmSchedulers(String nodeId, APIContext context) {
@@ -2788,8 +2788,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdsPixels(String nodeId, APIContext context) {
@@ -3144,8 +3144,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdsPixel(String nodeId, APIContext context) {
@@ -3263,8 +3263,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteAgencies(String nodeId, APIContext context) {
@@ -3393,8 +3393,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAgencies(String nodeId, APIContext context) {
@@ -3653,8 +3653,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAnPlacements(String nodeId, APIContext context) {
@@ -3821,8 +3821,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateBlockListDraft(String nodeId, APIContext context) {
@@ -3937,8 +3937,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetBusinessAssetGroups(String nodeId, APIContext context) {
@@ -4088,8 +4088,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetBusinessInvoices(String nodeId, APIContext context) {
@@ -4382,8 +4382,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetBusinessUsers(String nodeId, APIContext context) {
@@ -4586,8 +4586,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateBusinessUser(String nodeId, APIContext context) {
@@ -4704,8 +4704,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetBusinessProjects(String nodeId, APIContext context) {
@@ -4809,8 +4809,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateClaimCustomConversion(String nodeId, APIContext context) {
@@ -4988,8 +4988,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetClientAdAccounts(String nodeId, APIContext context) {
@@ -5685,8 +5685,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetClientApps(String nodeId, APIContext context) {
@@ -6525,8 +6525,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateClientApp(String nodeId, APIContext context) {
@@ -6638,8 +6638,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetClientOffsiteSignalContainerBusinessObjects(String nodeId, APIContext context) {
@@ -6892,8 +6892,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetClientPages(String nodeId, APIContext context) {
@@ -8048,8 +8048,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateClientPage(String nodeId, APIContext context) {
@@ -8203,8 +8203,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetClientPixels(String nodeId, APIContext context) {
@@ -8556,8 +8556,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetClientProductCatalogs(String nodeId, APIContext context) {
@@ -8805,8 +8805,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetClientWhatsAppBusinessAccounts(String nodeId, APIContext context) {
@@ -9043,8 +9043,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteClients(String nodeId, APIContext context) {
@@ -9173,8 +9173,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetClients(String nodeId, APIContext context) {
@@ -9435,8 +9435,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCollaborativeAdsCollaborationRequests(String nodeId, APIContext context) {
@@ -9622,8 +9622,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCollaborativeAdsCollaborationRequest(String nodeId, APIContext context) {
@@ -9783,8 +9783,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCollaborativeAdsSuggestedPartners(String nodeId, APIContext context) {
@@ -9975,8 +9975,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCommerceMerchantSettings(String nodeId, APIContext context) {
@@ -10259,8 +10259,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCpasBusinessSetupConfig(String nodeId, APIContext context) {
@@ -10402,8 +10402,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCpasBusinessSetupConfig(String nodeId, APIContext context) {
@@ -10549,8 +10549,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCpasMerchantConfig(String nodeId, APIContext context) {
@@ -10705,8 +10705,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCreativeFolder(String nodeId, APIContext context) {
@@ -10845,8 +10845,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCreditCards(String nodeId, APIContext context) {
@@ -11103,8 +11103,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCustomConversion(String nodeId, APIContext context) {
@@ -11251,8 +11251,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateDraftNegativeKeywordList(String nodeId, APIContext context) {
@@ -11369,8 +11369,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetEventSourceGroups(String nodeId, APIContext context) {
@@ -11510,8 +11510,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateEventSourceGroup(String nodeId, APIContext context) {
@@ -11629,8 +11629,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetExtendedCreditApplications(String nodeId, APIContext context) {
@@ -11762,8 +11762,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetExtendedCredits(String nodeId, APIContext context) {
@@ -12013,8 +12013,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateImage(String nodeId, APIContext context) {
@@ -12162,8 +12162,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInitiatedAudienceSharingRequests(String nodeId, APIContext context) {
@@ -12323,8 +12323,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteInstagramAccounts(String nodeId, APIContext context) {
@@ -12443,8 +12443,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInstagramAccounts(String nodeId, APIContext context) {
@@ -12640,8 +12640,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInstagramBusinessAccounts(String nodeId, APIContext context) {
@@ -12857,8 +12857,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteManagedBusinesses(String nodeId, APIContext context) {
@@ -12975,8 +12975,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateManagedBusiness(String nodeId, APIContext context) {
@@ -13151,8 +13151,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateManagedPartnerBusinessSetup(String nodeId, APIContext context) {
@@ -13304,8 +13304,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteManagedPartnerBusinesses(String nodeId, APIContext context) {
@@ -13439,8 +13439,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateManagedPartnerBusiness(String nodeId, APIContext context) {
@@ -13692,8 +13692,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetNegativeKeywordLists(String nodeId, APIContext context) {
@@ -13828,8 +13828,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOfflineConversionDataSets(String nodeId, APIContext context) {
@@ -14161,8 +14161,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateOfflineConversionDataSet(String nodeId, APIContext context) {
@@ -14311,8 +14311,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOpenBridgeConfigurations(String nodeId, APIContext context) {
@@ -14486,8 +14486,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateOpenBridgeConfiguration(String nodeId, APIContext context) {
@@ -14716,8 +14716,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOwnedAdAccounts(String nodeId, APIContext context) {
@@ -15309,8 +15309,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateOwnedAdAccount(String nodeId, APIContext context) {
@@ -15523,8 +15523,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOwnedApps(String nodeId, APIContext context) {
@@ -16363,8 +16363,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateOwnedApp(String nodeId, APIContext context) {
@@ -16477,8 +16477,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteOwnedBusinesses(String nodeId, APIContext context) {
@@ -16609,8 +16609,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOwnedBusinesses(String nodeId, APIContext context) {
@@ -16884,8 +16884,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateOwnedBusiness(String nodeId, APIContext context) {
@@ -17073,8 +17073,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOwnedInstagramAccounts(String nodeId, APIContext context) {
@@ -17254,8 +17254,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOwnedOffsiteSignalContainerBusinessObjects(String nodeId, APIContext context) {
@@ -17508,8 +17508,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOwnedPages(String nodeId, APIContext context) {
@@ -18665,8 +18665,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateOwnedPage(String nodeId, APIContext context) {
@@ -18821,8 +18821,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOwnedPixels(String nodeId, APIContext context) {
@@ -19174,8 +19174,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOwnedProductCatalogs(String nodeId, APIContext context) {
@@ -19414,8 +19414,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateOwnedProductCatalog(String nodeId, APIContext context) {
@@ -19615,8 +19615,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOwnedWhatsAppBusinessAccounts(String nodeId, APIContext context) {
@@ -19853,8 +19853,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeletePages(String nodeId, APIContext context) {
@@ -19966,8 +19966,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPartnerAccountLinking(String nodeId, APIContext context) {
@@ -20076,8 +20076,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreatePartnerPremiumOption(String nodeId, APIContext context) {
@@ -20224,8 +20224,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPendingClientAdAccounts(String nodeId, APIContext context) {
@@ -20344,8 +20344,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPendingClientApps(String nodeId, APIContext context) {
@@ -20464,8 +20464,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPendingClientPages(String nodeId, APIContext context) {
@@ -20584,8 +20584,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPendingOwnedAdAccounts(String nodeId, APIContext context) {
@@ -20704,8 +20704,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPendingOwnedPages(String nodeId, APIContext context) {
@@ -20822,8 +20822,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPendingSharedOffsiteSignalContainerBusinessObjects(String nodeId, APIContext context) {
@@ -20941,8 +20941,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPendingUsers(String nodeId, APIContext context) {
@@ -21161,8 +21161,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPicture(String nodeId, APIContext context) {
@@ -21364,8 +21364,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreatePixelTo(String nodeId, APIContext context) {
@@ -21476,8 +21476,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPreVerifiedNumbers(String nodeId, APIContext context) {
@@ -21644,8 +21644,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetReceivedAudienceSharingRequests(String nodeId, APIContext context) {
@@ -21809,8 +21809,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateSetupManagedPartnerAdAccount(String nodeId, APIContext context) {
@@ -21948,8 +21948,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteSharePreVerifiedNumbers(String nodeId, APIContext context) {
@@ -22064,8 +22064,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateSharePreVerifiedNumber(String nodeId, APIContext context) {
@@ -22183,8 +22183,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateSystemUserAccessToken(String nodeId, APIContext context) {
@@ -22338,8 +22338,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSystemUsers(String nodeId, APIContext context) {
@@ -22487,8 +22487,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateSystemUser(String nodeId, APIContext context) {
@@ -22614,8 +22614,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetThirdPartyMeasurementReportDataset(String nodeId, APIContext context) {
@@ -22792,8 +22792,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateVideo(String nodeId, APIContext context) {
@@ -23435,8 +23435,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -23692,8 +23692,8 @@ public class Business extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

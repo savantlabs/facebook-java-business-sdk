@@ -520,8 +520,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAcknowledgeOrder(String nodeId, APIContext context) {
@@ -655,8 +655,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCommerceOrders(String nodeId, APIContext context) {
@@ -885,8 +885,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCommercePayouts(String nodeId, APIContext context) {
@@ -1046,8 +1046,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCommerceTransactions(String nodeId, APIContext context) {
@@ -1230,8 +1230,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOnsiteConversionEvents(String nodeId, APIContext context) {
@@ -1449,8 +1449,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOrderManagementApps(String nodeId, APIContext context) {
@@ -2288,8 +2288,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateOrderManagementApp(String nodeId, APIContext context) {
@@ -2410,8 +2410,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProductCatalogs(String nodeId, APIContext context) {
@@ -2644,8 +2644,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetReturns(String nodeId, APIContext context) {
@@ -2772,8 +2772,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSellerIssues(String nodeId, APIContext context) {
@@ -2882,8 +2882,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSetupStatus(String nodeId, APIContext context) {
@@ -3029,8 +3029,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetShippingProfiles(String nodeId, APIContext context) {
@@ -3144,8 +3144,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateShippingProfile(String nodeId, APIContext context) {
@@ -3300,8 +3300,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetShops(String nodeId, APIContext context) {
@@ -3446,8 +3446,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTaxSettings(String nodeId, APIContext context) {
@@ -3552,8 +3552,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateWhatsappChannel(String nodeId, APIContext context) {
@@ -3699,8 +3699,8 @@ public class CommerceMerchantSettings extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

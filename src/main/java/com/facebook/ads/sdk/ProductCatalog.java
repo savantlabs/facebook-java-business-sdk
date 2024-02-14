@@ -626,8 +626,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteAgencies(String nodeId, APIContext context) {
@@ -756,8 +756,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAgencies(String nodeId, APIContext context) {
@@ -1011,8 +1011,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAgency(String nodeId, APIContext context) {
@@ -1148,8 +1148,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteAssignedUsers(String nodeId, APIContext context) {
@@ -1266,8 +1266,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAssignedUsers(String nodeId, APIContext context) {
@@ -1405,8 +1405,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAssignedUser(String nodeId, APIContext context) {
@@ -1559,8 +1559,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAutomotiveModels(String nodeId, APIContext context) {
@@ -1895,8 +1895,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateBatch(String nodeId, APIContext context) {
@@ -2032,8 +2032,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCatalogStore(String nodeId, APIContext context) {
@@ -2154,8 +2154,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCategories(String nodeId, APIContext context) {
@@ -2326,8 +2326,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCategory(String nodeId, APIContext context) {
@@ -2449,8 +2449,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCheckBatchRequestStatus(String nodeId, APIContext context) {
@@ -2631,8 +2631,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCollaborativeAdsEventStats(String nodeId, APIContext context) {
@@ -2777,8 +2777,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCollaborativeAdsLsbImageBank(String nodeId, APIContext context) {
@@ -2887,8 +2887,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCollaborativeAdsShareSettings(String nodeId, APIContext context) {
@@ -3036,8 +3036,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCpasLsbImageBank(String nodeId, APIContext context) {
@@ -3173,8 +3173,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDataSources(String nodeId, APIContext context) {
@@ -3340,8 +3340,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDestinations(String nodeId, APIContext context) {
@@ -3597,8 +3597,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDiagnostics(String nodeId, APIContext context) {
@@ -3835,8 +3835,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetEventStats(String nodeId, APIContext context) {
@@ -4026,8 +4026,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteExternalEventSources(String nodeId, APIContext context) {
@@ -4142,8 +4142,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetExternalEventSources(String nodeId, APIContext context) {
@@ -4268,8 +4268,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateExternalEventSource(String nodeId, APIContext context) {
@@ -4402,8 +4402,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetFlights(String nodeId, APIContext context) {
@@ -4705,8 +4705,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetHomeListings(String nodeId, APIContext context) {
@@ -5164,8 +5164,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateHomeListing(String nodeId, APIContext context) {
@@ -5376,8 +5376,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetHotelRoomsBatch(String nodeId, APIContext context) {
@@ -5519,8 +5519,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateHotelRoomsBatch(String nodeId, APIContext context) {
@@ -5690,8 +5690,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetHotels(String nodeId, APIContext context) {
@@ -5986,8 +5986,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateHotel(String nodeId, APIContext context) {
@@ -6184,8 +6184,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateItemsBatch(String nodeId, APIContext context) {
@@ -6333,8 +6333,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateLocalizedItemsBatch(String nodeId, APIContext context) {
@@ -6474,8 +6474,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPricingVariablesBatch(String nodeId, APIContext context) {
@@ -6617,8 +6617,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreatePricingVariablesBatch(String nodeId, APIContext context) {
@@ -6783,8 +6783,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProductFeeds(String nodeId, APIContext context) {
@@ -7046,8 +7046,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateProductFeed(String nodeId, APIContext context) {
@@ -7293,8 +7293,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProductGroups(String nodeId, APIContext context) {
@@ -7427,8 +7427,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateProductGroup(String nodeId, APIContext context) {
@@ -7559,8 +7559,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProductSets(String nodeId, APIContext context) {
@@ -7763,8 +7763,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateProductSet(String nodeId, APIContext context) {
@@ -7918,8 +7918,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProductSetsBatch(String nodeId, APIContext context) {
@@ -8135,8 +8135,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProducts(String nodeId, APIContext context) {
@@ -8885,8 +8885,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateProduct(String nodeId, APIContext context) {
@@ -9532,8 +9532,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetVehicleOffers(String nodeId, APIContext context) {
@@ -10019,8 +10019,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetVehicles(String nodeId, APIContext context) {
@@ -10507,8 +10507,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateVehicle(String nodeId, APIContext context) {
@@ -10818,8 +10818,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -10950,8 +10950,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -11197,8 +11197,8 @@ public class ProductCatalog extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

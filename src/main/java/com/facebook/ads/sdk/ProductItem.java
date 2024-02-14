@@ -785,8 +785,8 @@ public class ProductItem extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetChannelsToIntegrityStatus(String nodeId, APIContext context) {
@@ -913,8 +913,8 @@ public class ProductItem extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProductSets(String nodeId, APIContext context) {
@@ -1091,8 +1091,8 @@ public class ProductItem extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetVideosMetadata(String nodeId, APIContext context) {
@@ -1223,8 +1223,8 @@ public class ProductItem extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -1407,8 +1407,8 @@ public class ProductItem extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -2144,8 +2144,8 @@ public class ProductItem extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

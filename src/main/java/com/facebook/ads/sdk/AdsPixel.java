@@ -650,8 +650,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdAccounts(String nodeId, APIContext context) {
@@ -1263,8 +1263,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAgencies(String nodeId, APIContext context) {
@@ -1515,8 +1515,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAhpConfig(String nodeId, APIContext context) {
@@ -1633,8 +1633,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAssignedUsers(String nodeId, APIContext context) {
@@ -1772,8 +1772,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAssignedUser(String nodeId, APIContext context) {
@@ -1902,8 +1902,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDaChecks(String nodeId, APIContext context) {
@@ -2076,8 +2076,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateEvent(String nodeId, APIContext context) {
@@ -2246,8 +2246,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateMeapitocapiconsolidationhelper(String nodeId, APIContext context) {
@@ -2369,8 +2369,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOfflineEventUploads(String nodeId, APIContext context) {
@@ -2613,8 +2613,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOpenBridgeConfigurations(String nodeId, APIContext context) {
@@ -2780,8 +2780,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateShadowTrafficHelper(String nodeId, APIContext context) {
@@ -2886,8 +2886,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteSharedAccounts(String nodeId, APIContext context) {
@@ -3070,8 +3070,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSharedAccounts(String nodeId, APIContext context) {
@@ -3664,8 +3664,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateSharedAccount(String nodeId, APIContext context) {
@@ -3799,8 +3799,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSharedAgencies(String nodeId, APIContext context) {
@@ -4058,8 +4058,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetStats(String nodeId, APIContext context) {
@@ -4212,8 +4212,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateTelemetry(String nodeId, APIContext context) {
@@ -4349,8 +4349,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -4690,8 +4690,8 @@ public class AdsPixel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

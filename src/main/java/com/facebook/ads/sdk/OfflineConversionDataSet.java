@@ -635,8 +635,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdAccounts(String nodeId, APIContext context) {
@@ -1230,8 +1230,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdAccount(String nodeId, APIContext context) {
@@ -1374,8 +1374,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAgencies(String nodeId, APIContext context) {
@@ -1629,8 +1629,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAgency(String nodeId, APIContext context) {
@@ -1802,8 +1802,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAudiences(String nodeId, APIContext context) {
@@ -2213,8 +2213,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCustomConversions(String nodeId, APIContext context) {
@@ -2476,8 +2476,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetServerEventsPermittedBusiness(String nodeId, APIContext context) {
@@ -2798,8 +2798,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSharedAccounts(String nodeId, APIContext context) {
@@ -3421,8 +3421,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSharedAgencies(String nodeId, APIContext context) {
@@ -3687,8 +3687,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetStats(String nodeId, APIContext context) {
@@ -3864,8 +3864,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetUploads(String nodeId, APIContext context) {
@@ -4100,8 +4100,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateUpload(String nodeId, APIContext context) {
@@ -4211,8 +4211,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateValidate(String nodeId, APIContext context) {
@@ -4329,8 +4329,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -4465,8 +4465,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -4797,8 +4797,8 @@ public class OfflineConversionDataSet extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

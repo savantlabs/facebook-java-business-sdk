@@ -503,8 +503,8 @@ public class Album extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetComments(String nodeId, APIContext context) {
@@ -813,8 +813,8 @@ public class Album extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateComment(String nodeId, APIContext context) {
@@ -1009,8 +1009,8 @@ public class Album extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetLikes(String nodeId, APIContext context) {
@@ -1194,8 +1194,8 @@ public class Album extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateLike(String nodeId, APIContext context) {
@@ -1349,8 +1349,8 @@ public class Album extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPhotos(String nodeId, APIContext context) {
@@ -1693,8 +1693,8 @@ public class Album extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreatePhoto(String nodeId, APIContext context) {
@@ -2183,8 +2183,8 @@ public class Album extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPicture(String nodeId, APIContext context) {
@@ -2391,8 +2391,8 @@ public class Album extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

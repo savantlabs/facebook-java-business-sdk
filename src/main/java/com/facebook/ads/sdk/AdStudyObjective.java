@@ -402,8 +402,8 @@ public class AdStudyObjective extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdsPixels(String nodeId, APIContext context) {
@@ -842,8 +842,8 @@ public class AdStudyObjective extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetApplications(String nodeId, APIContext context) {
@@ -1702,8 +1702,8 @@ public class AdStudyObjective extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetBrandRequests(String nodeId, APIContext context) {
@@ -1972,8 +1972,8 @@ public class AdStudyObjective extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCustomConversions(String nodeId, APIContext context) {
@@ -2241,8 +2241,8 @@ public class AdStudyObjective extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOfflineConversionDataSets(String nodeId, APIContext context) {
@@ -2590,8 +2590,8 @@ public class AdStudyObjective extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPartnerPrivateStudies(String nodeId, APIContext context) {
@@ -2859,8 +2859,8 @@ public class AdStudyObjective extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPartnerStudies(String nodeId, APIContext context) {
@@ -3097,8 +3097,8 @@ public class AdStudyObjective extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -3267,8 +3267,8 @@ public class AdStudyObjective extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

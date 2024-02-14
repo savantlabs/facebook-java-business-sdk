@@ -453,8 +453,8 @@ public class FundraiserPersonToCharity extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDonations(String nodeId, APIContext context) {
@@ -557,8 +557,8 @@ public class FundraiserPersonToCharity extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateEndFundraiser(String nodeId, APIContext context) {
@@ -661,8 +661,8 @@ public class FundraiserPersonToCharity extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetExternalDonations(String nodeId, APIContext context) {
@@ -770,8 +770,8 @@ public class FundraiserPersonToCharity extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateExternalDonation(String nodeId, APIContext context) {
@@ -929,8 +929,8 @@ public class FundraiserPersonToCharity extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -1196,8 +1196,8 @@ public class FundraiserPersonToCharity extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

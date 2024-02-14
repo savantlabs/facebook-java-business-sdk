@@ -367,8 +367,8 @@ public class LifeEvent extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetLikes(String nodeId, APIContext context) {
@@ -556,8 +556,8 @@ public class LifeEvent extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

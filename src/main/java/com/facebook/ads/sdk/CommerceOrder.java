@@ -442,8 +442,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAcknowledgeOrder(String nodeId, APIContext context) {
@@ -565,8 +565,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCancellations(String nodeId, APIContext context) {
@@ -673,8 +673,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCancellation(String nodeId, APIContext context) {
@@ -811,8 +811,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateFulfillOrder(String nodeId, APIContext context) {
@@ -929,8 +929,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetItems(String nodeId, APIContext context) {
@@ -1033,8 +1033,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPayments(String nodeId, APIContext context) {
@@ -1137,8 +1137,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPromotionDetails(String nodeId, APIContext context) {
@@ -1241,8 +1241,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPromotions(String nodeId, APIContext context) {
@@ -1345,8 +1345,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetRefunds(String nodeId, APIContext context) {
@@ -1456,8 +1456,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateRefund(String nodeId, APIContext context) {
@@ -1613,8 +1613,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetReturns(String nodeId, APIContext context) {
@@ -1735,8 +1735,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateReturn(String nodeId, APIContext context) {
@@ -1867,8 +1867,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetShipments(String nodeId, APIContext context) {
@@ -1981,8 +1981,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateShipment(String nodeId, APIContext context) {
@@ -2160,8 +2160,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateUpdateShipment(String nodeId, APIContext context) {
@@ -2306,8 +2306,8 @@ public class CommerceOrder extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

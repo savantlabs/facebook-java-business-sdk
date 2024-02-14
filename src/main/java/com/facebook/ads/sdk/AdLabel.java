@@ -424,8 +424,8 @@ public class AdLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdCreatives(String nodeId, APIContext context) {
@@ -1027,8 +1027,8 @@ public class AdLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAds(String nodeId, APIContext context) {
@@ -1450,8 +1450,8 @@ public class AdLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdSets(String nodeId, APIContext context) {
@@ -2014,8 +2014,8 @@ public class AdLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCampaigns(String nodeId, APIContext context) {
@@ -2398,8 +2398,8 @@ public class AdLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -2507,8 +2507,8 @@ public class AdLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -2647,8 +2647,8 @@ public class AdLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

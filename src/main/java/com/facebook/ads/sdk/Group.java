@@ -500,8 +500,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteAdmins(String nodeId, APIContext context) {
@@ -614,8 +614,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdmin(String nodeId, APIContext context) {
@@ -750,8 +750,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAlbums(String nodeId, APIContext context) {
@@ -1027,8 +1027,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAlbum(String nodeId, APIContext context) {
@@ -1211,8 +1211,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDocs(String nodeId, APIContext context) {
@@ -1351,8 +1351,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetEvents(String nodeId, APIContext context) {
@@ -1775,8 +1775,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetFeed(String nodeId, APIContext context) {
@@ -2461,8 +2461,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateFeed(String nodeId, APIContext context) {
@@ -3347,8 +3347,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetFiles(String nodeId, APIContext context) {
@@ -3470,8 +3470,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetGroups(String nodeId, APIContext context) {
@@ -3718,8 +3718,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateGroup(String nodeId, APIContext context) {
@@ -3926,8 +3926,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetLiveVideos(String nodeId, APIContext context) {
@@ -4257,8 +4257,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateLiveVideo(String nodeId, APIContext context) {
@@ -4527,8 +4527,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteMembers(String nodeId, APIContext context) {
@@ -4650,8 +4650,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateMember(String nodeId, APIContext context) {
@@ -4840,8 +4840,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOptedInMembers(String nodeId, APIContext context) {
@@ -5338,8 +5338,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreatePhoto(String nodeId, APIContext context) {
@@ -5830,8 +5830,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPicture(String nodeId, APIContext context) {
@@ -6080,8 +6080,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetVideos(String nodeId, APIContext context) {
@@ -6589,8 +6589,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateVideo(String nodeId, APIContext context) {
@@ -7239,8 +7239,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -7501,8 +7501,8 @@ public class Group extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

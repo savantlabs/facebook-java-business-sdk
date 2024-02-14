@@ -547,8 +547,8 @@ public class LocalServiceBusiness extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetChannelsToIntegrityStatus(String nodeId, APIContext context) {
@@ -704,8 +704,8 @@ public class LocalServiceBusiness extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

@@ -340,8 +340,8 @@ public class AdMonetizationProperty extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdNetworkAnalytics(String nodeId, APIContext context) {
@@ -547,8 +547,8 @@ public class AdMonetizationProperty extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdNetworkAnalytic(String nodeId, APIContext context) {
@@ -731,8 +731,8 @@ public class AdMonetizationProperty extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdNetworkAnalyticsResults(String nodeId, APIContext context) {
@@ -888,8 +888,8 @@ public class AdMonetizationProperty extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

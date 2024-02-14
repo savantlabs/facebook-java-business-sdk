@@ -456,7 +456,7 @@ public class EventRequest {
           customEndpointResponse.setCustomEndpointResponses(endpointResponses);
           return Futures.immediateFuture(customEndpointResponse);
         }
-      });
+      }, Runnable::run);
   }
 
   private ListenableFuture<EventResponse> sendEventAsyncToCAPIAndCustomEndpoint() throws APIException {
@@ -485,7 +485,7 @@ public class EventRequest {
                           "Successfully sent %d event(s)", capiEventResponse.getEventsReceived()));
           return Futures.immediateFuture(capiEventResponse);
         }
-      });
+      }, Runnable::run);
   }
 
   private ListenableFuture<EventResponse> sendEventToCAPIOnly() throws APIException {
@@ -502,7 +502,7 @@ public class EventRequest {
                           "Successfully sent %d event(s)", eventResponse.getEventsReceived()));
           return Futures.immediateFuture(eventResponse);
         }
-      });
+      }, Runnable::run);
   }
 
   /**

@@ -534,8 +534,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAutomotiveModels(String nodeId, APIContext context) {
@@ -885,8 +885,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDestinations(String nodeId, APIContext context) {
@@ -1147,8 +1147,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetFlights(String nodeId, APIContext context) {
@@ -1450,8 +1450,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetHomeListings(String nodeId, APIContext context) {
@@ -1919,8 +1919,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetHotels(String nodeId, APIContext context) {
@@ -2225,8 +2225,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetMediaTitles(String nodeId, APIContext context) {
@@ -2573,8 +2573,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProducts(String nodeId, APIContext context) {
@@ -3242,8 +3242,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetRules(String nodeId, APIContext context) {
@@ -3377,8 +3377,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateRule(String nodeId, APIContext context) {
@@ -3505,8 +3505,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateSupplementaryFeedAssoc(String nodeId, APIContext context) {
@@ -3628,8 +3628,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetUploadSchedules(String nodeId, APIContext context) {
@@ -3803,8 +3803,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateUploadSchedule(String nodeId, APIContext context) {
@@ -3925,8 +3925,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetUploads(String nodeId, APIContext context) {
@@ -4126,8 +4126,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateUpload(String nodeId, APIContext context) {
@@ -4315,8 +4315,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetVehicleOffers(String nodeId, APIContext context) {
@@ -4802,8 +4802,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetVehicles(String nodeId, APIContext context) {
@@ -5260,8 +5260,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -5384,8 +5384,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -5637,8 +5637,8 @@ public class ProductFeed extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

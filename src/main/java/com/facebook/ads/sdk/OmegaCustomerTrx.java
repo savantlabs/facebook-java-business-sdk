@@ -419,8 +419,8 @@ public class OmegaCustomerTrx extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCampaigns(String nodeId, APIContext context) {
@@ -542,8 +542,8 @@ public class OmegaCustomerTrx extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

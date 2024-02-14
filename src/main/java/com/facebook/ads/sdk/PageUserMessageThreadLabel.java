@@ -326,8 +326,8 @@ public class PageUserMessageThreadLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteLabel(String nodeId, APIContext context) {
@@ -440,8 +440,8 @@ public class PageUserMessageThreadLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateLabel(String nodeId, APIContext context) {
@@ -553,8 +553,8 @@ public class PageUserMessageThreadLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -659,8 +659,8 @@ public class PageUserMessageThreadLabel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

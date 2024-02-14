@@ -583,8 +583,8 @@ public class VehicleOffer extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAugmentedRealitiesMetadata(String nodeId, APIContext context) {
@@ -689,8 +689,8 @@ public class VehicleOffer extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetChannelsToIntegrityStatus(String nodeId, APIContext context) {
@@ -811,8 +811,8 @@ public class VehicleOffer extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetVideosMetadata(String nodeId, APIContext context) {
@@ -988,8 +988,8 @@ public class VehicleOffer extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

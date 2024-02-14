@@ -822,8 +822,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteAccessTokens(String nodeId, APIContext context) {
@@ -930,8 +930,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAccessToken(String nodeId, APIContext context) {
@@ -1218,8 +1218,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAccounts(String nodeId, APIContext context) {
@@ -2406,8 +2406,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAccount(String nodeId, APIContext context) {
@@ -2632,8 +2632,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdStudies(String nodeId, APIContext context) {
@@ -2874,8 +2874,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdStudy(String nodeId, APIContext context) {
@@ -3143,8 +3143,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdAccounts(String nodeId, APIContext context) {
@@ -3753,8 +3753,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAlbums(String nodeId, APIContext context) {
@@ -4019,8 +4019,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateApplication(String nodeId, APIContext context) {
@@ -4134,8 +4134,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAppRequestFormerRecipients(String nodeId, APIContext context) {
@@ -4261,8 +4261,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAppRequests(String nodeId, APIContext context) {
@@ -4497,8 +4497,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAssignedAdAccounts(String nodeId, APIContext context) {
@@ -5088,8 +5088,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAssignedBusinessAssetGroups(String nodeId, APIContext context) {
@@ -5369,8 +5369,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAssignedPages(String nodeId, APIContext context) {
@@ -6550,8 +6550,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAssignedProductCatalogs(String nodeId, APIContext context) {
@@ -6781,8 +6781,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAvatars(String nodeId, APIContext context) {
@@ -6906,8 +6906,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetBusinessUsers(String nodeId, APIContext context) {
@@ -7109,8 +7109,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteBusinesses(String nodeId, APIContext context) {
@@ -7239,8 +7239,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetBusinesses(String nodeId, APIContext context) {
@@ -7500,8 +7500,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateBusiness(String nodeId, APIContext context) {
@@ -7695,8 +7695,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetConversations(String nodeId, APIContext context) {
@@ -7948,8 +7948,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCustomLabels(String nodeId, APIContext context) {
@@ -8104,8 +8104,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetEvents(String nodeId, APIContext context) {
@@ -8546,8 +8546,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetFeed(String nodeId, APIContext context) {
@@ -9232,8 +9232,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateFeed(String nodeId, APIContext context) {
@@ -10168,8 +10168,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetFriends(String nodeId, APIContext context) {
@@ -10646,8 +10646,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetFundraisers(String nodeId, APIContext context) {
@@ -10918,8 +10918,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateFundraiser(String nodeId, APIContext context) {
@@ -11113,8 +11113,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateGameTime(String nodeId, APIContext context) {
@@ -11247,8 +11247,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetGroups(String nodeId, APIContext context) {
@@ -11501,8 +11501,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetIdsForApps(String nodeId, APIContext context) {
@@ -11631,8 +11631,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetIdsForBusiness(String nodeId, APIContext context) {
@@ -11761,8 +11761,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetIdsForPages(String nodeId, APIContext context) {
@@ -12039,8 +12039,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetLikes(String nodeId, APIContext context) {
@@ -13227,8 +13227,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetLiveVideos(String nodeId, APIContext context) {
@@ -13558,8 +13558,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateLiveVideo(String nodeId, APIContext context) {
@@ -13826,8 +13826,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateMessengerDesktopPerformanceTrace(String nodeId, APIContext context) {
@@ -14081,8 +14081,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetMusic(String nodeId, APIContext context) {
@@ -15253,8 +15253,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateNotification(String nodeId, APIContext context) {
@@ -15478,8 +15478,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPaymentTransactions(String nodeId, APIContext context) {
@@ -15723,8 +15723,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeletePermissions(String nodeId, APIContext context) {
@@ -15836,8 +15836,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPermissions(String nodeId, APIContext context) {
@@ -16037,8 +16037,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPersonalAdAccounts(String nodeId, APIContext context) {
@@ -16652,8 +16652,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPhotos(String nodeId, APIContext context) {
@@ -17005,8 +17005,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreatePhoto(String nodeId, APIContext context) {
@@ -17497,8 +17497,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPicture(String nodeId, APIContext context) {
@@ -17768,8 +17768,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPosts(String nodeId, APIContext context) {
@@ -18372,8 +18372,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetRichMediaDocuments(String nodeId, APIContext context) {
@@ -18671,8 +18671,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateStagingResource(String nodeId, APIContext context) {
@@ -18831,8 +18831,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetVideos(String nodeId, APIContext context) {
@@ -19342,8 +19342,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateVideo(String nodeId, APIContext context) {
@@ -19982,8 +19982,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -20135,8 +20135,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -20589,8 +20589,8 @@ public class User extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

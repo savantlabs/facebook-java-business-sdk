@@ -460,8 +460,8 @@ public class AdStudy extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCells(String nodeId, APIContext context) {
@@ -604,8 +604,8 @@ public class AdStudy extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateCheckPoint(String nodeId, APIContext context) {
@@ -744,8 +744,8 @@ public class AdStudy extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInstances(String nodeId, APIContext context) {
@@ -927,8 +927,8 @@ public class AdStudy extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateInstance(String nodeId, APIContext context) {
@@ -1051,8 +1051,8 @@ public class AdStudy extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetObjectives(String nodeId, APIContext context) {
@@ -1197,8 +1197,8 @@ public class AdStudy extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -1319,8 +1319,8 @@ public class AdStudy extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -1561,8 +1561,8 @@ public class AdStudy extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

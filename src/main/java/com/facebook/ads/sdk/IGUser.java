@@ -477,8 +477,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAvailableCatalogs(String nodeId, APIContext context) {
@@ -619,8 +619,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCatalogProductSearch(String nodeId, APIContext context) {
@@ -792,8 +792,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetContentPublishingLimit(String nodeId, APIContext context) {
@@ -916,8 +916,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDataset(String nodeId, APIContext context) {
@@ -1041,8 +1041,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInsights(String nodeId, APIContext context) {
@@ -1268,8 +1268,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetLiveMedia(String nodeId, APIContext context) {
@@ -1520,8 +1520,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetMedia(String nodeId, APIContext context) {
@@ -1767,8 +1767,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateMedia(String nodeId, APIContext context) {
@@ -1966,8 +1966,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateMediaPublish(String nodeId, APIContext context) {
@@ -2082,8 +2082,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateMention(String nodeId, APIContext context) {
@@ -2212,8 +2212,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetNotificationMessageTokens(String nodeId, APIContext context) {
@@ -2399,8 +2399,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProductAppeal(String nodeId, APIContext context) {
@@ -2545,8 +2545,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateProductAppeal(String nodeId, APIContext context) {
@@ -2661,8 +2661,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetRecentlySearchedHashtags(String nodeId, APIContext context) {
@@ -2796,8 +2796,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetStories(String nodeId, APIContext context) {
@@ -3036,8 +3036,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTags(String nodeId, APIContext context) {
@@ -3276,8 +3276,8 @@ public class IGUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

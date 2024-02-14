@@ -459,8 +459,8 @@ public class ExtendedCredit extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetExtendedCreditInvoiceGroups(String nodeId, APIContext context) {
@@ -628,8 +628,8 @@ public class ExtendedCredit extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateExtendedCreditInvoiceGroup(String nodeId, APIContext context) {
@@ -757,8 +757,8 @@ public class ExtendedCredit extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetOwningCreditAllocationConfigs(String nodeId, APIContext context) {
@@ -941,8 +941,8 @@ public class ExtendedCredit extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateOwningCreditAllocationConfig(String nodeId, APIContext context) {
@@ -1088,8 +1088,8 @@ public class ExtendedCredit extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateWhatsappCreditSharingAndAttach(String nodeId, APIContext context) {
@@ -1221,8 +1221,8 @@ public class ExtendedCredit extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

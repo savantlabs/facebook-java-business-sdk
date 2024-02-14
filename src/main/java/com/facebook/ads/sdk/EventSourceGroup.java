@@ -418,8 +418,8 @@ public class EventSourceGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSharedAccounts(String nodeId, APIContext context) {
@@ -1006,8 +1006,8 @@ public class EventSourceGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateSharedAccount(String nodeId, APIContext context) {
@@ -1124,8 +1124,8 @@ public class EventSourceGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -1265,8 +1265,8 @@ public class EventSourceGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

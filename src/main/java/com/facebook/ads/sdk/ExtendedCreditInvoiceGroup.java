@@ -385,8 +385,8 @@ public class ExtendedCreditInvoiceGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteAdAccounts(String nodeId, APIContext context) {
@@ -563,8 +563,8 @@ public class ExtendedCreditInvoiceGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdAccounts(String nodeId, APIContext context) {
@@ -1151,8 +1151,8 @@ public class ExtendedCreditInvoiceGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdAccount(String nodeId, APIContext context) {
@@ -1260,8 +1260,8 @@ public class ExtendedCreditInvoiceGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -1373,8 +1373,8 @@ public class ExtendedCreditInvoiceGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -1542,8 +1542,8 @@ public class ExtendedCreditInvoiceGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

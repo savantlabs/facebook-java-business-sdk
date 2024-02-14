@@ -146,8 +146,8 @@ public class APIRequest<T extends APINode> {
              throw new RuntimeException(e);
            }
          }
-       }
-    );
+       },
+      Runnable::run);
   };
 
   public APIRequest<T> setParam(String param, Object value) {
@@ -227,8 +227,8 @@ public class APIRequest<T extends APINode> {
           }
           public void onFailure(Throwable t) {
           }
-        }
-      );
+        },
+        Runnable::run);
     } catch(IOException e) {
       throw new APIException.FailedRequestException(e);
     }

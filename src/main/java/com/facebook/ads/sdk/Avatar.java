@@ -317,8 +317,8 @@ public class Avatar extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetModels(String nodeId, APIContext context) {
@@ -456,8 +456,8 @@ public class Avatar extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

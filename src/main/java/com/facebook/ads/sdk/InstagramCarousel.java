@@ -380,8 +380,8 @@ public class InstagramCarousel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetComments(String nodeId, APIContext context) {
@@ -542,8 +542,8 @@ public class InstagramCarousel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateComment(String nodeId, APIContext context) {
@@ -666,8 +666,8 @@ public class InstagramCarousel extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

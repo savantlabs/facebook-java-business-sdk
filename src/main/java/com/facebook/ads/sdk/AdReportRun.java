@@ -526,8 +526,8 @@ public class AdReportRun extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInsights(String nodeId, APIContext context) {
@@ -1581,8 +1581,8 @@ public class AdReportRun extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

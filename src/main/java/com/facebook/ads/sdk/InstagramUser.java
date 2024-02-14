@@ -410,8 +410,8 @@ public class InstagramUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAgencies(String nodeId, APIContext context) {
@@ -661,8 +661,8 @@ public class InstagramUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetArEffects(String nodeId, APIContext context) {
@@ -835,8 +835,8 @@ public class InstagramUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAuthorizedAdAccounts(String nodeId, APIContext context) {
@@ -1429,8 +1429,8 @@ public class InstagramUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAuthorizedAdAccount(String nodeId, APIContext context) {
@@ -1555,8 +1555,8 @@ public class InstagramUser extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

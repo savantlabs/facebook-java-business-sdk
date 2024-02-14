@@ -339,8 +339,8 @@ public class ShadowIGHashtag extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetRecentMedia(String nodeId, APIContext context) {
@@ -585,8 +585,8 @@ public class ShadowIGHashtag extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTopMedia(String nodeId, APIContext context) {
@@ -815,8 +815,8 @@ public class ShadowIGHashtag extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

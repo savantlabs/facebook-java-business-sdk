@@ -527,8 +527,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteAssignedUsers(String nodeId, APIContext context) {
@@ -645,8 +645,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAssignedUsers(String nodeId, APIContext context) {
@@ -784,8 +784,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAssignedUser(String nodeId, APIContext context) {
@@ -906,8 +906,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAudiences(String nodeId, APIContext context) {
@@ -1020,8 +1020,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetConversationAnalytics(String nodeId, APIContext context) {
@@ -1214,8 +1214,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetDccConfig(String nodeId, APIContext context) {
@@ -1318,8 +1318,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetFlows(String nodeId, APIContext context) {
@@ -1426,8 +1426,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateFlow(String nodeId, APIContext context) {
@@ -1554,8 +1554,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetMessageCampaigns(String nodeId, APIContext context) {
@@ -1663,8 +1663,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetMessageTemplatePreviews(String nodeId, APIContext context) {
@@ -1814,8 +1814,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteMessageTemplates(String nodeId, APIContext context) {
@@ -1935,8 +1935,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetMessageTemplates(String nodeId, APIContext context) {
@@ -2098,8 +2098,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateMessageTemplate(String nodeId, APIContext context) {
@@ -2268,8 +2268,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateMigrateMessageTemplate(String nodeId, APIContext context) {
@@ -2386,8 +2386,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPhoneNumbers(String nodeId, APIContext context) {
@@ -2495,8 +2495,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreatePhoneNumber(String nodeId, APIContext context) {
@@ -2629,8 +2629,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteProductCatalogs(String nodeId, APIContext context) {
@@ -2756,8 +2756,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProductCatalogs(String nodeId, APIContext context) {
@@ -2987,8 +2987,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateProductCatalog(String nodeId, APIContext context) {
@@ -3096,8 +3096,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSchedules(String nodeId, APIContext context) {
@@ -3200,8 +3200,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteSubscribedApps(String nodeId, APIContext context) {
@@ -3304,8 +3304,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSubscribedApps(String nodeId, APIContext context) {
@@ -3410,8 +3410,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateSubscribedApp(String nodeId, APIContext context) {
@@ -3529,8 +3529,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTemplateAnalytics(String nodeId, APIContext context) {
@@ -3672,8 +3672,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTemplatePerformanceMetrics(String nodeId, APIContext context) {
@@ -3791,8 +3791,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateUpsertMessageTemplate(String nodeId, APIContext context) {
@@ -3955,8 +3955,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -4193,8 +4193,8 @@ public class WhatsAppBusinessAccount extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

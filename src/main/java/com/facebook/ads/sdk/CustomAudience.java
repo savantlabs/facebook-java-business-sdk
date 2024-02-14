@@ -594,8 +594,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteAdAccounts(String nodeId, APIContext context) {
@@ -777,8 +777,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAdAccounts(String nodeId, APIContext context) {
@@ -1373,8 +1373,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAdAccount(String nodeId, APIContext context) {
@@ -1548,8 +1548,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAds(String nodeId, APIContext context) {
@@ -1932,8 +1932,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSalts(String nodeId, APIContext context) {
@@ -2062,8 +2062,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateSalt(String nodeId, APIContext context) {
@@ -2190,8 +2190,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSessions(String nodeId, APIContext context) {
@@ -2364,8 +2364,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetSharedAccountInfo(String nodeId, APIContext context) {
@@ -2506,8 +2506,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteUsers(String nodeId, APIContext context) {
@@ -2636,8 +2636,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateUser(String nodeId, APIContext context) {
@@ -2766,8 +2766,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateUsersReplace(String nodeId, APIContext context) {
@@ -2893,8 +2893,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDelete(String nodeId, APIContext context) {
@@ -3038,8 +3038,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -3451,8 +3451,8 @@ public class CustomAudience extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

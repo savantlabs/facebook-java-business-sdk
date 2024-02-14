@@ -353,8 +353,8 @@ public class CommerceOrderTransactionDetail extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetItems(String nodeId, APIContext context) {
@@ -457,8 +457,8 @@ public class CommerceOrderTransactionDetail extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTaxDetails(String nodeId, APIContext context) {

@@ -480,8 +480,8 @@ public class LeadgenForm extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetLeads(String nodeId, APIContext context) {
@@ -736,8 +736,8 @@ public class LeadgenForm extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTestLeads(String nodeId, APIContext context) {
@@ -975,8 +975,8 @@ public class LeadgenForm extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateTestLead(String nodeId, APIContext context) {
@@ -1120,8 +1120,8 @@ public class LeadgenForm extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -1386,8 +1386,8 @@ public class LeadgenForm extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

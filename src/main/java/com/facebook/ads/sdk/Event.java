@@ -563,8 +563,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetComments(String nodeId, APIContext context) {
@@ -667,8 +667,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetFeed(String nodeId, APIContext context) {
@@ -771,8 +771,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetLiveVideos(String nodeId, APIContext context) {
@@ -895,8 +895,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateLiveVideo(String nodeId, APIContext context) {
@@ -1163,8 +1163,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPhotos(String nodeId, APIContext context) {
@@ -1267,8 +1267,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPicture(String nodeId, APIContext context) {
@@ -1371,8 +1371,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPosts(String nodeId, APIContext context) {
@@ -1486,8 +1486,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetRoles(String nodeId, APIContext context) {
@@ -1667,8 +1667,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetTicketTiers(String nodeId, APIContext context) {
@@ -1771,8 +1771,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetVideos(String nodeId, APIContext context) {
@@ -1911,8 +1911,8 @@ public class Event extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

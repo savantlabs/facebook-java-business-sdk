@@ -459,8 +459,8 @@ public class IGMedia extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetChildren(String nodeId, APIContext context) {
@@ -685,8 +685,8 @@ public class IGMedia extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetCollaborators(String nodeId, APIContext context) {
@@ -820,8 +820,8 @@ public class IGMedia extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetComments(String nodeId, APIContext context) {
@@ -995,8 +995,8 @@ public class IGMedia extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateComment(String nodeId, APIContext context) {
@@ -1114,8 +1114,8 @@ public class IGMedia extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetInsights(String nodeId, APIContext context) {
@@ -1296,8 +1296,8 @@ public class IGMedia extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteProductTags(String nodeId, APIContext context) {
@@ -1429,8 +1429,8 @@ public class IGMedia extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProductTags(String nodeId, APIContext context) {
@@ -1612,8 +1612,8 @@ public class IGMedia extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateProductTag(String nodeId, APIContext context) {
@@ -1755,8 +1755,8 @@ public class IGMedia extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -1999,8 +1999,8 @@ public class IGMedia extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {

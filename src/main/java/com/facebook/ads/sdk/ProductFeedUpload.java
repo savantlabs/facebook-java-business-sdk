@@ -387,8 +387,8 @@ public class ProductFeedUpload extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateErrorReport(String nodeId, APIContext context) {
@@ -499,8 +499,8 @@ public class ProductFeedUpload extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetErrors(String nodeId, APIContext context) {
@@ -674,8 +674,8 @@ public class ProductFeedUpload extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

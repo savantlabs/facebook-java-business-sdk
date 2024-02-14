@@ -386,8 +386,8 @@ public class AudioCopyright extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetUpdateRecords(String nodeId, APIContext context) {
@@ -503,8 +503,8 @@ public class AudioCopyright extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

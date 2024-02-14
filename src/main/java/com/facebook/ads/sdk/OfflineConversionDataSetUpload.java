@@ -393,8 +393,8 @@ public class OfflineConversionDataSetUpload extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetProgress(String nodeId, APIContext context) {
@@ -497,8 +497,8 @@ public class OfflineConversionDataSetUpload extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetPullSessions(String nodeId, APIContext context) {
@@ -615,8 +615,8 @@ public class OfflineConversionDataSetUpload extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {

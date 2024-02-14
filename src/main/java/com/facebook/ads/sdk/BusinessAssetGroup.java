@@ -435,8 +435,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteAssignedUsers(String nodeId, APIContext context) {
@@ -553,8 +553,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetAssignedUsers(String nodeId, APIContext context) {
@@ -695,8 +695,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateAssignedUser(String nodeId, APIContext context) {
@@ -845,8 +845,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteContainedAdAccounts(String nodeId, APIContext context) {
@@ -1023,8 +1023,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetContainedAdAccounts(String nodeId, APIContext context) {
@@ -1611,8 +1611,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateContainedAdAccount(String nodeId, APIContext context) {
@@ -1721,8 +1721,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteContainedApplications(String nodeId, APIContext context) {
@@ -1935,8 +1935,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetContainedApplications(String nodeId, APIContext context) {
@@ -2775,8 +2775,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateContainedApplication(String nodeId, APIContext context) {
@@ -2885,8 +2885,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteContainedCustomConversions(String nodeId, APIContext context) {
@@ -3013,8 +3013,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetContainedCustomConversions(String nodeId, APIContext context) {
@@ -3251,8 +3251,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateContainedCustomConversion(String nodeId, APIContext context) {
@@ -3361,8 +3361,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteContainedInstagramAccounts(String nodeId, APIContext context) {
@@ -3481,8 +3481,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetContainedInstagramAccounts(String nodeId, APIContext context) {
@@ -3663,8 +3663,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateContainedInstagramAccount(String nodeId, APIContext context) {
@@ -3773,8 +3773,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteContainedOfflineConversionDataSets(String nodeId, APIContext context) {
@@ -3914,8 +3914,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetContainedOfflineConversionDataSets(String nodeId, APIContext context) {
@@ -4243,8 +4243,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateContainedOfflineConversionDataSet(String nodeId, APIContext context) {
@@ -4353,8 +4353,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteContainedPages(String nodeId, APIContext context) {
@@ -4612,8 +4612,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetContainedPages(String nodeId, APIContext context) {
@@ -5767,8 +5767,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateContainedPage(String nodeId, APIContext context) {
@@ -5877,8 +5877,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteContainedPixels(String nodeId, APIContext context) {
@@ -6019,8 +6019,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetContainedPixels(String nodeId, APIContext context) {
@@ -6355,8 +6355,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateContainedPixel(String nodeId, APIContext context) {
@@ -6465,8 +6465,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestDeleteContainedProductCatalogs(String nodeId, APIContext context) {
@@ -6592,8 +6592,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGetContainedProductCatalogs(String nodeId, APIContext context) {
@@ -6823,8 +6823,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestCreateContainedProductCatalog(String nodeId, APIContext context) {
@@ -6935,8 +6935,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestGet(String nodeId, APIContext context) {
@@ -7061,8 +7061,8 @@ public class BusinessAssetGroup extends APINode {
                throw new RuntimeException(e);
              }
            }
-         }
-      );
+         },
+      Runnable::run);
     };
 
     public APIRequestUpdate(String nodeId, APIContext context) {
